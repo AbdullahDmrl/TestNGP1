@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="TestNGP1(failed)">
+    <classes>
+      <class name="UITest_YourStore._01_FunctiontestSteps">
+        <methods>
+          <include name="BaslangicIslemleri"/>
+          <include name="Test1_searchFunctionalityCheck"/>
+          <include name="Test2_checkoutFunctionalityCheck"/>
+          <include name="printError"/>
+          <include name="BitisIslemleri"/>
+        </methods>
+      </class> <!-- UITest_YourStore._01_FunctiontestSteps -->
+    </classes>
+  </test> <!-- TestNGP1(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
